@@ -55,7 +55,7 @@ export default function Modal({ character, onClose }) {
                   className="bg-[#D7DAD9] p-4 rounded-lg flex items-center gap-2 shadow-sm hover:bg-gray-200 transition duration-300"
                 >
                   <img
-                    src={`/assets/accordion_assets/${attr.trait_type} black.svg`}
+                    src={`assets/accordion_assets/${attr.trait_type} black.svg`}
                     alt={attr.trait_type}
                     className="h-6 w-6"
                   />
