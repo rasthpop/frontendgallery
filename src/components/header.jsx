@@ -29,7 +29,7 @@ export default function Header(){
                 </ul>
             </div>
             <div className="flex gap-2">
-            <a href="https://magiceden.io/ru/ordinals/marketplace/shibuya" className="linkobj flex h-14 w-14 p-1 bg-[#251607]"><img className="object-contain" src="src/assets/accordion_assets/magiceden.png"/></a>
+            <a href="https://magiceden.io/ru/ordinals/marketplace/shibuya" className="linkobj flex h-14 w-14 p-1 bg-[#251607]"><img className="object-contain" src="/assets/accordion_assets/magiceden.png"/></a>
             <a href='https://t.co/tXtBu62Jj9' className="linkobj h-14 w-14 p-1 bg-[#251607]"><img src="/Discord.png"/></a>
             <a href="https://x.com/StationShibuya" className="linkobj h-14 w-14 p-1 bg-[#251607]"><img src="/X.png"/></a>
             </div>

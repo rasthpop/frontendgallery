@@ -72,7 +72,7 @@ export default function MobileAttributeFilter({
         <SearchBarMobile onSearch={handleSearch} />
         <img
           className="h-4 cursor-pointer"
-          src="/src/assets/refresh.png"
+          src="/assets/refresh.png"
           alt="refresh"
           onClick={resetFilters}
         />

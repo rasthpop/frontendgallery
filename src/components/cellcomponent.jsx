@@ -1,5 +1,5 @@
 import React from "react";
-import Heart from "../assets/Heart.png";
+import Heart from "/assets/Heart.png";
 
 export default function Cell({ number, rank, image, onClick }) {
   return (

@@ -10,7 +10,7 @@ export default function ResetFiltersButton({ onReset }) {
       title="Reset Filters"
     >
       <img
-        src={size.width > 990 ? "/src/assets/refresh_white.svg" : "src/assets/refresh.png"}
+        src={size.width > 990 ? "/assets/refresh_white.svg" : "/assets/refresh.png"}
         alt="Reset"
         className={`${size.width > 990 ? "h-5 w-5" : "h-4 w-4"} `}
       />

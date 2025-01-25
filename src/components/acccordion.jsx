@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Arrow from "../assets/accordion_assets/arrow.svg";
-import tick from "../assets/accordion_assets/tick.svg";
+import Arrow from "/assets/accordion_assets/arrow.svg";
+import tick from "/assets/accordion_assets/tick.svg";
 import "./accordion.css";
 import axios from "axios";
 
@@ -63,7 +63,7 @@ export default function Accordion({
         className={`cursor-pointer ${mobile ? "" : "mb-4"} rounded-full flex text-xl py-2 px-6 bg-[#251607] text-[#FFF0E1]`}
         key={title}
       >
-        <img src={`src/assets/accordion_assets/${title}.svg`} alt="icon" />
+        <img src={`/assets/accordion_assets/${title}.svg`} alt="icon" />
         <span className="mr-auto ml-2">{title}</span>
         <img
           className={`opacity-50 transition-transform ${open ? "rotate-180" : ""}`}

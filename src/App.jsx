@@ -4,7 +4,7 @@ import Header from "./components/header";
 import MobileHeader from "./components/mobileheader";
 import MobileAttributeFilter from "./components/mobileattr";
 import Footer from "./components/footer";
-import filter from "./assets/filter.png";
+import filter from "/assets/filter.png";
 import AttributeFilter from "./components/attrfilter";
 import Cell from "./components/cellcomponent";
 import axios from "axios";

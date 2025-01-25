@@ -115,7 +115,7 @@ export default function AudioPlayer({ tracks }) {
             />
           </svg>
         ) : (
-          <img src="src/assets/player/1.svg" alt="Play" />
+          <img src="/assets/player/1.svg" alt="Play" />
         )}
       </button>
 
@@ -126,7 +126,7 @@ export default function AudioPlayer({ tracks }) {
         } h-24 rounded-2xl flex gap-2`}
       >
         <div className={`${isOpen ? "w-[30%]" : "w-[44%]"} h-full rounded-s-2xl`}>
-          <img className="h-full w-full rounded-s-2xl" src="src/assets/girl.png"/>
+          <img className="h-full w-full rounded-s-2xl" src="/assets/girl.png"/>
         </div>
         {isOpen ? (
           <div className="w-[70%] flex flex-col py-1">
@@ -147,19 +147,19 @@ export default function AudioPlayer({ tracks }) {
                 <span className="text-[#E69AA4]">{formatTime(currentTime)}</span>
                 <div className="flex gap-2 mt-[-6px]">
                   <img
-                    src="src/assets/player/skip-previous.svg"
+                    src="/assets/player/skip-previous.svg"
                     alt="Previous"
                     onClick={playPrevious}
                     className="cursor-pointer"
                   />
                   <img
-                    src={`src/assets/player/${isPlaying ? "1" : "1"}.svg`}
+                    src={`/assets/player/${isPlaying ? "1" : "1"}.svg`}
                     alt={isPlaying ? "Pause" : "Play"}
                     onClick={togglePlay}
                     className="cursor-pointer"
                   />
                   <img
-                    src="src/assets/player/skip-next.svg"
+                    src="/assets/player/skip-next.svg"
                     alt="Next"
                     onClick={playNext}
                     className="cursor-pointer"

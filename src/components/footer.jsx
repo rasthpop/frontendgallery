@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import footer1 from '../assets/footer/footer1.svg'
-import footer2 from '../assets/footer/footer2.png'
+import footer1 from '/assets/footer/footer1.svg'
+import footer2 from '/assets/footer/footer2.png'
 import { useWindowSize } from "@uidotdev/usehooks"
 export default function Footer(){
   const [moreopen, setOpen] = useState(false)
@@ -45,7 +45,7 @@ export default function Footer(){
       <div className="flex 2xl:flex-col ml-8 justify-between gap-2">
           <a href="https://x.com/StationShibuya" className="linkobj h-12 w-12 p-1 bg-[#251607]"><img src="/X.png"/></a>
           <a href='https://t.co/tXtBu62Jj9' className="linkobj h-12 w-12 p-1 bg-[#251607]"><img src="/Discord.png"/></a>
-          <a href="https://magiceden.io/ru/ordinals/marketplace/shibuya" className="linkobj flex h-12 w-12 p-1 bg-[#251607]"><img className="object-contain" src="src/assets/accordion_assets/magiceden.png"/></a>
+          <a href="https://magiceden.io/ru/ordinals/marketplace/shibuya" className="linkobj flex h-12 w-12 p-1 bg-[#251607]"><img className="object-contain" src="/assets/accordion_assets/magiceden.png"/></a>
       </div>
     </div>
     <div className="flex justify-center">

@@ -21,7 +21,7 @@ export default function Modal({ character, onClose }) {
           className="pb-5 border-2 border-[#251607] absolute top-4 right-4 rounded-full p-3 flex items-center justify-center"
           style={{ width: "50px", height: "50px" }}
         >
-          <img src="src/assets/cancel-svgrepo-com 1.png" className="absolute top-[25%]"/>
+          <img src="/assets/cancel-svgrepo-com 1.png" className="absolute top-[25%]"/>
         </button>
 
         <div className={`${size.width > 860 ? "items-center grid content-center grid-cols-[60%_40%] gap-2 h-full" : "flex flex-col w-full"} items-start `}>
@@ -55,7 +55,7 @@ export default function Modal({ character, onClose }) {
                   className="bg-[#D7DAD9] p-4 rounded-lg flex items-center gap-2 shadow-sm hover:bg-gray-200 transition duration-300"
                 >
                   <img
-                    src={`/src/assets/accordion_assets/${attr.trait_type} black.svg`}
+                    src={`/assets/accordion_assets/${attr.trait_type} black.svg`}
                     alt={attr.trait_type}
                     className="h-6 w-6"
                   />
@@ -84,7 +84,7 @@ export default function Modal({ character, onClose }) {
 
             <div className=" text-left flex items-center gap-2" style={{ marginLeft: "8px" }}>
               <img
-                src={`/src/assets/accordion_assets/rarity black.svg`}
+                src={`/assets/accordion_assets/rarity black.svg`}
                 alt="rarity"
                 className="h-6 w-6"
               />
@@ -107,7 +107,7 @@ export default function Modal({ character, onClose }) {
                   className="bg-[#EFF4F2] border-gray-300 mr-6 py-4 rounded-lg hover:bg-gray-200 transition text-lg font-semibold flex items-center gap-2"
                 >
                   <img
-                    src={`/src/assets/accordion_assets/magiceden.png`}
+                    src={`/assets/accordion_assets/magiceden.png`}
                     alt="Magic Eden"
                     className="h-10 w-8 object-contain"
                   />

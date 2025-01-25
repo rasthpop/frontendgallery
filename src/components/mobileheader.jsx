@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import burger from "../assets/burger-menu-svgrepo-com.svg";
+import burger from "/assets/burger-menu-svgrepo-com.svg";
 
 export default function MobileHeader() {
   const [open, setOpen] = useState(false);
