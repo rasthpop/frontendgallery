@@ -17,7 +17,7 @@ export default function Gallery({ filters }) {
   useEffect(() => {
     async function fetchCharacters() {
       try {
-        const response = await axios.get("http://localhost:3000/api/characters", {
+        const response = await axios.get("https://backendgallery.vercel.app/api/characters", {
           params: {
             page: currentPage,
             limit: itemsPerPage,

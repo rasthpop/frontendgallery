@@ -8,7 +8,7 @@ export default function AudioPlayer() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/tracks")
+      .get("http://https://backendgallery.vercel.app/api/tracks")
       .then((response) => {
         setTracks(response.data.tracks);
       })

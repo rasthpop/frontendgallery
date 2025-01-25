@@ -27,7 +27,7 @@ export default function Accordion({
   useEffect(() => {
     async function fetchCounts() {
       try {
-        const response = await axios.get("http://localhost:3000/attributes-count");
+        const response = await axios.get("https://backendgallery.vercel.app/attributes-count");
         if (response.data[title]) {
           setCounts(response.data[title]);
         }

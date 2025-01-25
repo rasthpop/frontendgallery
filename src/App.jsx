@@ -54,7 +54,7 @@ function App() {
     }
 
     axios
-      .get("http://localhost:3000/api/characters", {
+      .get("https://backendgallery.vercel.app/api/characters", {
         params: {
           search: extractedNumber,
         },
@@ -88,7 +88,7 @@ function App() {
 
   async function fetchCharacters(page = currentPage, appliedFilters = filters) {
     try {
-      const response = await axios.get("http://localhost:3000/api/characters", {
+      const response = await axios.get("https://backendgallery.vercel.app/api/characters", {
         params: {
           page,
           limit: itemsPerPage,
@@ -106,7 +106,7 @@ function App() {
 
   async function fetchTracks() {
     try {
-      const response = await axios.get("http://localhost:3000/api/tracks");
+      const response = await axios.get("https://backendgallery.vercel.app/api/tracks");
       setTracks(response.data.tracks || []);
     } catch (error) {
       console.error("Error fetching tracks:", error);
