@@ -38,6 +38,12 @@ a:hover{
 	transition: ease-out 200ms;
 }
 
+.object:hover{
+	color: #E69AA4;
+	cursor: pointer;
+	transition: ease-out 200ms;
+}
+
 .linkobj:hover{
 	background-color: #E69AA4;
 	cursor: pointer;

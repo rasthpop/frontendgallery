@@ -13,6 +13,7 @@ import SearchBar from "./components/search_bar";
 import SearchBarMobile from "./components/search_bar_mobile";
 import ResetFiltersButton from "./components/reset_filters_button";
 import AudioPlayer from "./components/player";
+import FunnyFilter from "./components/funnyfilter";
 
 function App() {
   const [mobilefilter, setOpenMFilter] = useState(false);
@@ -178,7 +179,7 @@ function App() {
               alt="filter"
             />
           </div>
-        ) : null}
+        ) : <FunnyFilter/>}
       </div>
 
       <div className="flex">
