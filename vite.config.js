@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://backend-steel-kappa.vercel.app', // Адреса вашого бекенду
+        target: 'https://shibuya-station-gallery.vercel.app', // Адреса вашого бекенду
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '') // Перенаправлення шляху
       }
