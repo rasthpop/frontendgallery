@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+	@font-face {
+	  font-family: 'bellfort';
+	  font-style: bold;
+	  font-weight: 400;
+	  font-display: swap;
+	  src: url("/src/fonts/Bellfort Bold.woff") format('woff');
+	}
+	@font-face {
+		font-family: 'hakusyu';
+		src: url("/src/fonts/hakusyukaisyo.ttf") format("ttf");
+	}
+  }
+
+
+
+  :root{
+  background-color: #FFF0E1;
+  background-image: url('/src/assets/bg-1.png');
+
+  font-family: 'bellfort';
+}
+
+
+li:hover, header>a:hover{
+	color: #E69AA4;
+	cursor: pointer;
+	transition: ease-out 200ms;
+}
+a:hover{
+	color: #E69AA4;
+	cursor: pointer;
+	transition: ease-out 200ms;
+}
+
+.linkobj:hover{
+	background-color: #E69AA4;
+	cursor: pointer;
+	transition: ease-out 200ms;
+}
+.more{
+	stroke: #251607;
+}
+
+.more:hover{
+	color: #E69AA4;
+	stroke: #E69AA4;
+	cursor: pointer;
+	opacity: 100;
+	transition: ease-out 200ms;
+}
+
+.spansmall{
+	font-family: 'hakusyu';
+}
+
+button:disabled {
+	cursor: not-allowed;
+  }

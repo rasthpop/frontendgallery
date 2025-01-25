@@ -1,0 +1,40 @@
+{
+    "id": "3b0a166570b6f7aeb30f24e7241e29013f45c974bf3d3fbeff98f092831aceb6i8",
+    "meta": {
+        "name": "Shibuyan #27",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Fallen Sakura"
+            },
+            {
+                "trait_type": "Back",
+                "value": "None"
+            },
+            {
+                "trait_type": "Skin",
+                "value": "Spirit"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "Patched Uniform"
+            },
+            {
+                "trait_type": "Eyes",
+                "value": "None"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "None"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "Spirit Phoenix"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "None"
+            }
+        ]
+    }
+}

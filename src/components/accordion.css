@@ -1,0 +1,12 @@
+#search{
+    background-image: url('../assets/accordion_assets/search-svgrepo-com 1.png');
+    background-repeat: no-repeat;
+    background-position: 3%;
+    background-size: 20px;
+    border: 2px solid #251607
+}
+
+input[type=checkbox]{
+    border: 2px solid #FFF0E1;
+    border-radius: 2px;
+}
