@@ -22,6 +22,7 @@
   :root{
   background-color: #FFF0E1;
   background-image: url('/src/assets/bg-1.png');
+  background-size: 100%;
 
   font-family: 'bellfort';
 }
