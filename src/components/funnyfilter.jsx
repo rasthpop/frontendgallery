@@ -9,14 +9,12 @@ export default function FunnyFilter(){
         "rarity high to low",
         "shibuyan # low to high",
         "shibuyan # high to low",
-        "honoraries",
-        "1:1"
         ]
 
     useEffect(() => {
         const handleClickOutside = (event) => {
           if (ref.current && !ref.current.contains(event.target)) {
-            setOpen(!open);
+            setOpen(false);
           }
         };
     
